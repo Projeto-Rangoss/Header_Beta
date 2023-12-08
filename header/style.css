@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    align-items: center; 
+
+}
+
+.ancoras a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px; 
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex; 
+    align-items: center; 
+    margin-right: 20px;
+    flex-wrap: wrap;
+
+}
+
+.ancoras a:hover {
+    color: gold;
+}
+
+.ancoras img {
+    width: 27px; 
+    margin-right: 5px; 
+}
+
+.ancoras {
+    display: flex;
+    padding-top: 20px; 
+}
